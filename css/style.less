@@ -1,0 +1,98 @@
+/*
+File Name: style.less
+Date: Feb 2021
+Programmer: Ammura Heidar
+*/
+
+/* VARIABLES */
+
+/* colors */
+
+@baseColor: white;
+@mBgColor: @baseColor;
+@tBgColor: spin(@mBgColor, 80);
+@dBgColor: spin(@tBgColor, 80);
+@footerColor: #9F00C5;
+
+/* sizes */
+
+@mFontSize: 16px;
+@tFontSize: @mFontSize * .9375;
+@dFontSize: @mFontSize * .875;
+@h1FontSize: 2em;
+@h2FontSize: @h1FontSize * .7;
+@h3FontSize: @h1FontSize * .55;
+
+/* margins */
+
+@pHeadingMargin: 1em 0;
+@mBodyMargin: 0 1em;
+@tBodyMargin: 0 4%;
+@dBodyMargin: 0 3%;
+@olLiLeftMargin: 8px;
+
+/* MOBILE STYLES */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5em;
+}
+
+p {
+    margin: @pHeadingMargin;
+}
+
+h1 {
+    margin: @pHeadingMargin;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+h2 {
+    margin: @pHeadingMargin;
+    font-weight: bold;
+}
+
+h3 {
+    margin: @pHeadingMargin;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 25px;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+footer {
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+a {
+    &:link {
+        text-decoration: none;
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+#container {
+    margin: 0 1em;
+}
+

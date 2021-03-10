@@ -1,0 +1,128 @@
+/*
+File Name: style.less
+Date: Feb 2021
+Programmer: Ammura Heidar
+*/
+
+/* MOBILE STYLES */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5em;
+    background-color: white;
+    font-size: 16px;
+    margin: 0 1em;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 1px 2px #FF0000;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: normal;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3em;
+    line-height: normal;
+    text-shadow: 1px 1px 1px #FF0000;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: normal;
+}
+
+p {
+    margin: 1em 0;
+}
+
+ol {
+    list-style: none;
+    margin-left: 25px;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: #FF0000;
+    color: white;
+}
+
+footer {
+    margin: 1em;
+    font-style: italic;
+    color: white;
+    background-color: #FF0000;
+    text-align: center;
+}
+
+#container {
+    margin: 0 1em;
+    
+}
+
+#wraper {
+    margin: 0 1em;
+}
+
+main {
+    margin: 0 1em;
+    padding: 0 1em;
+}
+
+img {
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 15px;
+        margin: 0 4%;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0.8em;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    ol {
+        margin-bottom: 15px;
+    }
+
+    ol li {
+        margin-left: 8px;
+    }
+
+    ul {
+        margin-bottom: 1em;
+    }
+}
+
+/* DESKTOP STYLES */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 14px;
+        margin: 0 3%;
+    }
+}
